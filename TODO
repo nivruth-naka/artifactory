@@ -1,0 +1,10 @@
+Improve authentication instead of storing credentials as plain text
+Add ability to buy multiple items and more than 1 quantity of each item 
+Add error handling and meaningful error codes & messages
+Update getItem to use JPA query for filtering (instead of Java streams & filters)
+Add Swagger API specification
+Add a distributed cache like Redis instead of using a in-memory Map
+Make the surge calculations non-blocking / async
+Have actual database instead of H2
+Use Spring Cloud for configuration management & Vault for secret management
+Add admin interface for updating inventory
